@@ -3,11 +3,57 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+			integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 		<link rel="stylesheet" href="style.css" />
 		<title>Background Slider</title>
 	</head>
 	<body>
-		<h1>MY Project</h1>
+		<div class="slider-container">
+			<div
+				class="slide active"
+				style="
+					background-image: url('https://images.unsplash.com/photo-1660937472479-f0d9608e8370?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80');
+				"
+			></div>
+
+			<div
+				class="slide"
+				style="
+					background-image: url('https://images.unsplash.com/photo-1599070221195-bf2801877d7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80');
+				"
+			></div>
+			<div
+				class="slide"
+				style="
+					background-image: url('https://images.unsplash.com/photo-1659941983952-7a35d58d3189?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80');
+				"
+			></div>
+			<div
+				class="slide"
+				style="
+					background-image: url('https://images.unsplash.com/photo-1659830638553-923c362b202f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3044&q=80');
+				"
+			></div>
+			<div
+				class="slide"
+				style="
+					background-image: url('https://images.unsplash.com/photo-1648614454260-875f1390bfe9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3024&q=80');
+				"
+			></div>
+
+			<button class="arrow left-arrow" id="left">
+				<i class="fas fa-arrow-left"></i>
+			</button>
+			<button class="arrow right-arrow" id="right">
+				<i class="fas fa-arrow-right"></i>
+			</button>
+		</div>
 
 		<script src="script.js"></script>
 	</body>
